@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>音频仿真对比展示</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- 顶部居中标题 -->
+  <header class="site-header">
+    <h1 id="site-title">音频作品集</h1>
+    <p class="subtitle" id="site-subtitle"></p>
+  </header>
+
+  <main class="container">
+    <!-- 一条真实样本 -->
+    <section class="real-sample" aria-label="真实样本">
+      <h2 class="section-title">真实样本</h2>
+      <div id="real-sample-slot"></div>
+    </section>
+
+    <!-- 说明文字 -->
+    <section class="intro-text" id="intro-text"></section>
+
+    <!-- 两列：左参考 / 右仿真 -->
+    <section class="compare">
+      <div class="col">
+        <h2 class="col-title">参考音频</h2>
+        <div id="reference-list" class="track-list"></div>
+      </div>
+      <div class="col">
+        <h2 class="col-title">仿真后音频</h2>
+        <div id="simulated-list" class="track-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/audio-data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

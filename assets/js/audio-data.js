@@ -26,7 +26,7 @@ const SITE_CONFIG = {
 const PAGE_CONFIG = {
   // ---------- 1) 顶部一条真实样本 ----------
   realSample: {
-    title: "真实样本",
+    title: "真实损伤样本",
     description: "",
     src: "audio/1001154499_1215352545_part_000.wav",
     cover: "",
@@ -38,7 +38,7 @@ const PAGE_CONFIG = {
     "仿真时主要考虑了两个因素：" +
     "1. 环境因素：" +
     "  1）混响：会低频变糊的最主要原因" +
-    "  2. 设备因素：" + 
+    "    2. 设备因素：" + 
     "  1）低频衰减" + 
     "  2）低码率编码",
 
@@ -63,28 +63,28 @@ const PAGE_CONFIG = {
     {
       title: "2",
       description: "",
-      src: "audio/select/0000010.wav",
+      src: "audio/select/000010.wav",
       cover: "",
       tags: ["参考"],
     },
     {
       title: "3",
       description: "",
-      src: "audio/select/0000011.wav",
+      src: "audio/select/000011.wav",
       cover: "",
       tags: ["参考"],
     },
     {
       title: "4",
       description: "",
-      src: "audio/select/0000027.wav",
+      src: "audio/select/000027.wav",
       cover: "",
       tags: ["参考"],
     },
     {
       title: "5",
       description: "",
-      src: "audio/select/0000028.wav",
+      src: "audio/select/000028.wav",
       cover: "",
       tags: ["参考"],
     },

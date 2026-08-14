@@ -19,15 +19,15 @@
 // ============================================================
 
 const SITE_CONFIG = {
-  title: "音频仿真对比展示",
-  subtitle: "真实样本 · 参考音频 · 仿真后音频",
+  title: "音频仿真对比",
+  subtitle: "",
 };
 
 const PAGE_CONFIG = {
   // ---------- 1) 顶部一条真实样本 ----------
   realSample: {
     title: "真实样本",
-    description: "这是一条真实录制的样本，作为对比的基准。把 src 改成你的真实样本文件。",
+    description: "",
     src: "audio/1001154499_1215352545_part_000.wav",
     cover: "",
     tags: ["真实数据样本"],
@@ -43,7 +43,7 @@ const PAGE_CONFIG = {
     {
       title: "1",
       description: "参考",
-      src: "audio/mic/000010.wav",
+      src: "audio/target/000010.wav",
       cover: "",
       tags: ["参考"],
     },
@@ -61,7 +61,7 @@ const PAGE_CONFIG = {
     {
       title: "1",
       description: "仿真",
-      src: "audio/target/000010.wav",
+      src: "audio/mic/000010.wav",
       cover: "",
       tags: ["仿真"],
     },
